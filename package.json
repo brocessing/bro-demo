@@ -1,0 +1,24 @@
+{
+  "name": "bro-totype",
+  "version": "1.0.0",
+  "description": "🚀 for small canvas/webgl demos & prototypes",
+  "main": "bin/bro-totype.js",
+  "bin": {
+    "bro-totype": "bin/bro-totype.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brocessing/bro-totype.git"
+  },
+  "author": "Brocessing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brocessing/bro-totype/issues"
+  },
+  "homepage": "https://github.com/brocessing/bro-totype#readme",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "term-color": "^1.0.1"
+  },
+  "devDependencies": {}
+}
