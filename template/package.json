@@ -3,9 +3,10 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "build": "browserify index.js | uglifyjs -cm > index.min.js",
+    "build-bundle": "browserify index.js | uglifyjs -cm > index.min.js",
     "build-example": "browserify example/index.js > example/bundle.js",
-    "start-example": "budo index.js:bundle.js --live --dir example"
+    "build": "npm run build-bundle && npm run build-example",
+    "start": "budo index.js:bundle.js --live --dir example"
   },
   "main": "index.js",
   "author": "",
