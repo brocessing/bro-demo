@@ -1,7 +1,7 @@
 {
   "name": "",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "scripts": {
     "build-module": "browserify src/index.js > index.js && uglifyjs index.js -c -m > index.min.js",
     "build-example": "browserify example/index.js > example/bundle.js",
