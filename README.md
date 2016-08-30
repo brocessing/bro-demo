@@ -17,9 +17,9 @@ npm install --global brocessing/bro-totype
 
 - `bro-totype myProject` Create a new bro-totype inside _myProject/_
 - `npm run start` Run your bro-totype
-- `npm run build` Build your bro-totype
-- `npm run build-example` Only build your bro-totype's example
-- `npm run build-bundle` Only build your bro-totype's bundle
+- `npm run build` Build your bro-totype (module & example)
+- `npm run build-example` Build your bro-totype's example
+- `npm run build-bundle` Build your bro-totype's module with a UMD Wrapper + a minified version
 
 ### Credits
 
