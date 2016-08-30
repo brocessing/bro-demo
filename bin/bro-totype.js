@@ -2,7 +2,7 @@
 
 const path = require('path');
 const fs = require('fs-extra');
-const sh = require('../libs/Shell');
+const sh = require('kool-shell');
 const args = process.argv.splice(2);
 const protoPath = args[0] ? path.join(process.cwd(), args[0]) : process.cwd();
 const templatePath = path.join(__dirname, '../template');

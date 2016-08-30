@@ -1,11 +1,11 @@
 {
   "name": "",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
-    "build-bundle": "browserify index.js | uglifyjs -cm > index.min.js",
+    "build-module": "browserify -s src/index.js > index.js && uglifyjs -cm > index.min.js",
     "build-example": "browserify example/index.js > example/bundle.js",
-    "build": "npm run build-bundle && npm run build-example",
+    "build": "npm run build-module && npm run build-example",
     "start": "budo index.js:bundle.js --live --dir example"
   },
   "main": "index.js",
