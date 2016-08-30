@@ -19,7 +19,7 @@ npm install --global brocessing/bro-totype
 - `npm run start` Run your bro-totype
 - `npm run build` Build your bro-totype (module & example)
 - `npm run build-example` Build your bro-totype's example
-- `npm run build-bundle` Build your bro-totype's module with a UMD Wrapper + a minified version
+- `npm run build-bundle` Build your bro-totype's module in CommonJS format + a minified version
 
 ### Credits
 
