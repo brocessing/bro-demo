@@ -1,6 +1,6 @@
 {
   "name": "bro-totype",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "🚀 for small canvas/webgl demos & prototypes",
   "main": "bin/bro-totype.js",
   "bin": {
