@@ -1,8 +1,6 @@
 <h1 align="center">bro-totype</h1>
 <h3 align="center">:rocket: for canvas/webgl demos and prototypes</h3>
 
-<br/>
-
 <div align="center">
   <!-- License -->
   <a href="https://raw.githubusercontent.com/brocessing/bro-totype/master/LICENSE">
