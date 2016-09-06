@@ -1,6 +1,6 @@
 {
   "name": "bro-totype",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "🚀 for small canvas/webgl demos & prototypes",
   "main": "bin/bro-totype.js",
   "bin": {
@@ -21,5 +21,8 @@
     "kool-shell": "github:pqml/kool-shell",
     "term-color": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines" : {
+    "node" : ">=6.0.0"
+  }
 }

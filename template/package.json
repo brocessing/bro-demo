@@ -6,7 +6,7 @@
     "build-module": "browserify src/index.js > index.js && uglifyjs index.js -c -m > index.min.js",
     "build-example": "browserify example/index.js > example/bundle.js",
     "build": "npm run build-module && npm run build-example",
-    "start": "budo index.js:bundle.js --live --dir example"
+    "start": "budo example/index.js:bundle.js -P -l -d example"
   },
   "main": "index.js",
   "author": "",

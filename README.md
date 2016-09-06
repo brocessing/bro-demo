@@ -1,7 +1,18 @@
-bro-totype
-=====
+<h1 align="center">bro-totype</h1>
+<h3 align="center">:rocket: for canvas/webgl demos and prototypes</h3>
 
-:rocket: for canvas/webgl demos and prototypes
+<br/>
+
+<div align="center">
+  <!-- License -->
+  <a href="https://raw.githubusercontent.com/brocessing/bro-totype/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
+  </a>
+  <!-- Standard -->
+  <a href="http://standardjs.com/">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
+  </a>
+</div>
 
 ### Features
 
